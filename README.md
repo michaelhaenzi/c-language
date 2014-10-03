@@ -1,4 +1,4 @@
-c-language
-==========
+C
+==
 
-This repository contains c-language tutorials, which will be from the school and company
+Dieses Repository enthält Dokumentationen von der Programmiersprache C.

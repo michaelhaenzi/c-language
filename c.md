@@ -16,7 +16,7 @@ Bevor man richtig mit C-Programmiert muss man richtige Werkzeuge und Grundwissen
 
 Beim Texteditor handelt es sich um die Schreibfläche, wo man neue .c files schreibt. Der Compiler ist der Übersetzter. Von unserer C-Syntax (z.B. printf("")) ins 0 und 1 umwandeln. Weil der Computer nur dieses "Sprache" spricht, braucht es einen Compiler, der von unseren Befehlen ins Binärsystem umwandelt.
 
-![alt text](compiler.png)
+![alt text](https://github.com/michaelhaenzi/c-language/blob/master/compiler.PNG)
 
 ###Grundgerüst
 
@@ -28,7 +28,7 @@ Beim Texteditor handelt es sich um die Schreibfläche, wo man neue .c files schr
 | ; | Abschliessung jedes Befehles (Semikolon) |
 | return 0; | Zürckgabewert: 0 |
 
-![alt text](grundgeruest.png)
+![alt text](https://github.com/michaelhaenzi/c-language/blob/master/grundgeruest.png)
 
 **Zusatz Befehle**
 
@@ -57,4 +57,4 @@ int main() {
 
 Ausgabe:
 
-![alt text](helloworld.png)
+![alt text](https://github.com/michaelhaenzi/c-language/blob/master/helloworld.PNG)

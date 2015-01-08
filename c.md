@@ -26,7 +26,7 @@ Beim Texteditor handelt es sich um die Schreibfläche, wo man neue .c files schr
 | int main () | Hauptprogramm/ Hauptfunktion |
 | {} | Anfang und Ende einer Funktion |
 | ; | Abschliessung jedes Befehles (Semikolon) |
-| return 0; | Zürckgabewert: 0 |
+| return 0; | Zürckgabewert: 0 () |
 
 ![alt text](https://github.com/michaelhaenzi/c-language/blob/master/grundgeruest.png)
 
@@ -39,7 +39,7 @@ Beim Texteditor handelt es sich um die Schreibfläche, wo man neue .c files schr
 | printf("") | Etwas in Textform ausgeben |
 | system("pause") | Bei anwendung von .exe Programm startet ohne zu schliessen |
 
-###Hello World!
+###Hello World
 
 Das waren die zwei "Worte" die das erste B Programm (Vorgänger von C) ausgab. Bis heute ist es die bekannteste Ausgabe mit C.
 Nun gehts auch los:
@@ -58,3 +58,43 @@ int main() {
 Ausgabe:
 
 ![alt text](https://github.com/michaelhaenzi/c-language/blob/master/helloworld.PNG)
+
+Da man jetzt im Stande ist einen Text auszugeben, bietet dies viele Möglichkeiten an.
+
+###Variablen
+
+In einer einer Variable lässt sich ein Wert speichern, man kann dieser Variable einen Namen geben und verschiedene Typen von Variablen auswählen.
+
+**Daten-Typen**
+
+| Datentyp | Beschreibung | Reichweite | Bytes | Adressoperator |
+| -------- | ------------ | ---------- | ----- | -------------- |
+| int | Interger (Ganz-Zahlen) | -32 768 .. +32 767 | 2 | %d |
+| char | Charater (ASCII-Tabelle) | -128 .. +127 | 1 | %c oder %d |
+| float | Float (Fliesskomma-Zahl) | Max. 7 Stellen | 4 | %f oder %.xf |
+| long | Long (Ganz-Zahl) | -2 147 483 648 .. +2 147 483 647 | 4 | %d oder %l |
+| Double | Double (Fliesskomma-Zahl) | Max. 19 Stellen | 8 | %f, %lf oder %.xf |
+
+**Syntax**
+
+```c
+datentyp variablenname;
+//oder
+datentyp variablenname = wert;
+
+//Beispiel
+int zahl1 = 7;
+float zahl2 = 7.2;
+char charakter1 = 'a';
+```
+
+**Operatoren**
+
+* Addition ( + )
+* Subtraktion ( - )
+* Multiplikation ( * )
+* Division ( / )
+* Modulo ( % )
+* Zuweisung ( = )
+* Inkrement ( ++ )
+* Dekrement ( -- )

@@ -91,9 +91,18 @@ char charakter1 = 'a';
 **Variablen in der Ausgabe**
 
 ```c
-int a = 3;
 
+char ch = 'a';
+int a = 3;
+/*
+Innerhalb der Hänsefüsschen(""), Text und Adressoperator.
+Ausserhalb, die Variablen, mit Kommas getrennt und der Reihenfolge aufgeführt.
+*/
+
+//Beispiel 1
 printf("Variable a hat den Wert: %d", a);
+//Beispiel 2
+printf("Variable %c hat den Wert: %d", ch, a);
 ```
 
 **Operatoren**
@@ -106,3 +115,23 @@ printf("Variable a hat den Wert: %d", a);
 * Zuweisung ( = )
 * Inkrement ( ++ )
 * Dekrement ( -- )
+
+###Benutzerinteraktionen
+
+**scanf-Befehl**
+
+Mit dem Befehle scanf, wird der Benutzer aufgefordert eine Eingabe zu tätigen.
+Man speichert die Eingabe in eine Variable.
+Hierbei ist wichtig die Richtigen Datentypen zu verwenden:
+
+```c
+//Deklaration der Variable a
+int a;
+
+//Text, dann Eingabe mit Adressoperator und Kaufmanns-& um auf die Variable hinzuweisen.
+printf("Geben Sie eine Zahl ein: ");
+scanf("%d", &a);
+
+//Ausgabe
+printf("Der eingegebene Zahlenwert ist: %d", a);
+```

@@ -88,6 +88,14 @@ float zahl2 = 7.2;
 char charakter1 = 'a';
 ```
 
+**Variablen in der Ausgabe**
+
+```c
+int a = 3;
+
+printf("Variable a hat den Wert: %d", a);
+```
+
 **Operatoren**
 
 * Addition ( + )

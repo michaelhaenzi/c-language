@@ -135,3 +135,60 @@ scanf("%d", &a);
 //Ausgabe
 printf("Der eingegebene Zahlenwert ist: %d", a);
 ```
+```c
+//String (Charkette, Wort) deklariert
+char ch[15] = "";
+
+//Eingabe des Strings (Charkette, Wort)
+printf("Geben Sie ein Wort ein: ");
+scanf("%s" &ch);
+```
+
+**getch-Befehl**
+
+Eine andere Variante ist der Befehl `getch()`, welcher erlaubt einen char (Zeichen) einzulesen.
+
+```c
+//Deklaration
+char ch;
+
+//Einlesen eines Chars
+ch =  getch();
+```
+
+###Verzweigungen
+
+Wir kommen zu einem Thema, welches komplexer sein kann. Die Abzweigungen können in verschiedenen Varianten vorkommen und einige Bedingungen beinhalten, was das sind schauen wir gleich an.
+
+**IF-ELSE Verzweigung**
+
+```c
+//Deklaration und Initialisierung
+int zahl = 5;
+
+//if (Bedingung) {
+//Befehl
+//}
+
+if (zahl == 5) {
+  printf("Zahl ist fuenf.");
+}
+```
+
+Die Ausgabe ist `fuenf`. Zuerst kommt das Schlüsselwort if am Anfang. In den runden Klammern kommt die Bedigung (Im Beispiel, Ausgesprochen: Wenn die Variable Zahl den Wert 5 hat.). Wenn die Bedigung zutrifft, also True (Wahr), wird der/ die Befehl/ e in den geschwungenen Klammer ausgeführt.
+
+```c
+//Deklaration und Initialisierung
+int zahl = 6;
+
+//True/ Wahr
+if (zahl == 5) {
+  printf("Zahl ist fuenf.");
+}
+//Flase/ Falsch
+else {
+  printf("Zahl ist nicht fuenf.");
+}
+```
+
+Da die Variable zahl nicht mehr fuenf ist, sondern 6 wird der Compiler in die else Verzweigung gehen, also false (Falsch). Die Ausgabe ist: Zahl ist nicht fuenf.
